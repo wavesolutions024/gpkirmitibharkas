@@ -4,7 +4,12 @@ import { SlSocialFacebook } from "react-icons/sl";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FiLinkedin } from "react-icons/fi";
-const Top_header = () => {
+
+const Top_header = ({ setLang, lang }) => {
+  const translateTogglle = (para) => {
+    setLang(para);
+  };
+
   return (
     <>
       <div class="top_header_parent parent">
@@ -28,8 +33,18 @@ const Top_header = () => {
             </a>
 
             <div class="toggle_btn">
-              <div class="button active">Eng</div>
-              <div class="button">मराठी</div>
+              <div
+                class={lang === "English" ? "button active" : "button"}
+                onClick={() => translateTogglle("English")}
+              >
+                Eng
+              </div>
+              <div
+                class={lang === "Marathi" ? "button active" : "button"}
+                onClick={() => translateTogglle("Marathi")}
+              >
+                मराठी
+              </div>
             </div>
           </div>
         </div>
