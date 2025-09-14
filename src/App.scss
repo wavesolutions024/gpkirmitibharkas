@@ -32,14 +32,14 @@ body {
 }
 
 .bg-img-cover {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 .bg-img-contain {
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-position: center center !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
 }
 
 a {
