@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
-        <Home />
+        {/* <Home /> */}
         <Top_header  setLang={setLang} lang={lang} />
         <Middle_header />
         <Bottom_Header translate={translate} />
