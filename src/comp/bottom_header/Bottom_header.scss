@@ -100,3 +100,23 @@
     }
   }
 }
+
+@media only screen and (max-width: 716px) {
+  .bottom_header_parent {
+    top: calc(50px + 220px);
+
+    .mobile_nav_option {
+      top: calc(50px + 220px + 50px);
+    }
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .bottom_header_parent {
+    top: calc(50px + 310px);
+
+    .mobile_nav_option {
+      top: calc(50px + 310px + 50px);
+    }
+  }
+}

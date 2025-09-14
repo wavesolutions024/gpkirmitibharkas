@@ -72,7 +72,7 @@
 
 @media only screen and (max-width: 716px) {
   .middle_header_parent {
-    height: auto;
+    height: 220px;
     .middle_header_cont {
       flex-direction: column;
       padding: 10px 0px !important;
@@ -92,4 +92,10 @@
       }
     }
   }
+}
+
+@media only screen and (max-width: 435px){
+    .middle_header_parent{
+        height: 310px;
+    }
 }
