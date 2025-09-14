@@ -30,3 +30,14 @@ body {
     padding: 0px 10px;
   }
 }
+
+.bg-img-cover{
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-img-contain{
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
