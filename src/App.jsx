@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import "./App.scss";
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Top_header from "./comp/top_header/Top_header";
 import Middle_header from "./comp/middle_header/Middle_header";
 import Home from "./pages/home/Home";
@@ -26,11 +26,13 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
-        {/* <Home /> */}
+        
         <Top_header  setLang={setLang} lang={lang} />
         <Middle_header />
         <Bottom_Header translate={translate} />
-        <Routes></Routes>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+        </Routes>
       </BrowserRouter>
     </div>
   );
