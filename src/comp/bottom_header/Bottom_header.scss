@@ -5,6 +5,7 @@
   top: calc(50px + 180px);
   left: 0;
   background-color: var(--accent);
+  z-index: 99;
   .bottom_header_cont {
     display: flex;
     justify-content: flex-start;
@@ -23,7 +24,7 @@
   }
 
   .mobile_nav {
-    display: flex;
+ display: none;
     justify-content: center;
     align-items: center;
     height: 100%;
