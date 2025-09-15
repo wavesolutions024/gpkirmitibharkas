@@ -32,3 +32,9 @@
   0% { transform: translateX(100%);}
   100% { transform: translateX(-100%);}
 }
+
+@media screen and (max-width: 435px) {
+.hero-parent{
+   margin-top: calc(50px + 200px + 50px);
+}
+}

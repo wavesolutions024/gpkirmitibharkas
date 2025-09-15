@@ -97,6 +97,28 @@
 
 @media only screen and (max-width: 435px){
     .middle_header_parent{
-        height: 310px;
+        height: 200px;
+
+        .middle_header_cont{
+          .left{
+
+            .logo{
+              img{
+                width: 50px;
+              }
+            }
+            .name{
+              h1{
+                font-size: 12px;
+              }
+            }
+          }
+
+          .right{
+            img{
+              width: 80px;
+            }
+          }
+        }
     }
 }
