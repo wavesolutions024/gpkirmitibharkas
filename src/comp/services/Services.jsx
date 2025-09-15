@@ -3,6 +3,7 @@ import "./Services.scss";
 import Popup from "../../pages/popup/Popup";
 
 const Services = () => {
+    
   const [close, setClose] = useState(false);
   const [activeIndex, setActiveIndex] = useState();
 
@@ -13,15 +14,30 @@ const Services = () => {
     },
     {
       label: "Death Certificate",
-      children: ["लाभार्थी आधार कार्ड झेरॉक्स", "आई वडील आधार कार्ड झेरॉक्स"],
+      children: ["मृत व्यक्ती आधार ", "आई वडील आधार कार्ड झेरॉक्स"],
     },
     {
       label: "Resident Certificate",
-      children: ["लाभार्थी आधार कार्ड झेरॉक्स", "आई वडील आधार कार्ड झेरॉक्स"],
+      children: [
+        "रहिवाशी दाखला कागदपत्रे",
+        "लाभार्थी आधार कार्ड झेरॉक्स",
+        "घरपट्टी पावती",
+        "फोटो",
+      ],
     },
     {
       label: "Marriage Certificate",
-      children: ["लाभार्थी आधार कार्ड झेरॉक्स", "आई वडील आधार कार्ड झेरॉक्स"],
+      children: [
+        "वर वधू आधार कार्ड झेरॉक्स",
+        "प्रतिज्ञा पत्र",
+        "लग्न पत्रिका",
+        "साक्षीदार आधार कार्ड",
+        "घरपट्टी पावती",
+        "साक्षीदार पासपोर्ट फोटो",
+        "लग्न फोटो",
+        "वर वधू पासपोर्ट फोटो",
+        "वर वधू leaving सर्टिफिकेट",
+      ],
     },
     {
       label: "No Due Certificate",
@@ -58,12 +74,12 @@ const Services = () => {
 
   const handleOpen = (index) => {
     setClose(true);
-    setActiveIndex(index)
+    setActiveIndex(index);
   };
 
   return (
     <>
-   {  close &&  <Popup listing={data[activeIndex]} setClose={setClose} />}
+      {close && <Popup listing={data[activeIndex]} setClose={setClose} />}
 
       <div className="parent service-parent" id="services">
         <div className="cont service-cont">
@@ -72,7 +88,9 @@ const Services = () => {
             <h3>Services</h3>
 
             {data.map((item, index) => (
-              <div className="list" onClick={() => handleOpen(index)}>{item.label}</div>
+              <div className="list" onClick={() => handleOpen(index)}>
+                {item.label}
+              </div>
             ))}
           </div>
 

@@ -15,8 +15,6 @@
       padding-top: 20px;
       position: relative;
 
-      
-
       .service-top-site {
         position: absolute;
         background-color: #12a94a;
@@ -36,7 +34,6 @@
         align-items: center;
         justify-content: center;
         cursor: pointer;
-        
       }
     }
 
@@ -72,4 +69,21 @@
       }
     }
   }
+}
+
+@media (max-width: 850px) {
+
+
+.service-parent {
+  .service-cont {flex-direction: column;
+    .service-wrap {
+      width: 100%;
+    }
+    .new-wrap {
+      width: 100%;
+    }
+  }
+}
+
+
 }
