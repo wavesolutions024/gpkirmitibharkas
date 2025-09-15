@@ -8,6 +8,7 @@ import Home from "./pages/home/Home";
 import { English } from "../src/Language/English";
 import { Marathi } from "../src/Language/Marathi";
 import Bottom_Header from "./comp/bottom_header/Bottom_Header";
+import Footer from "./comp/footer/Footer";
 
 function App() {
   const [translate, setTranslate] = useState(English);
@@ -33,6 +34,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );

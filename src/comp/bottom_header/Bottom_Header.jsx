@@ -9,10 +9,10 @@ const Bottom_Header = ({ translate }) => {
       {translate.map((item, index) => (
         <div class="bottom_header_parent parent" key={index}>
           <div class="bottom_header_cont cont">
-            <Link href="">{item.header_Schemes}</Link>
-            <Link href="">{item.header_Gallery}</Link>
+            <a href="#schemes">{item.header_Schemes}</a>
+            <Link to="#">{item.header_Gallery}</Link>
             <Link href="">{item.header_Services}</Link>
-            <Link href="">{item.header_contact}</Link>
+            <a href="#services">{item.header_contact}</a>
             <Link href="">{item.header_majivasundhara}</Link>
             <Link href="">{item.header_MukhyamantriSamudhi}</Link>
           </div>

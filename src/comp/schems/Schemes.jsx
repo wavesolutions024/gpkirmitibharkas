@@ -111,7 +111,7 @@ const Schemes = () => {
   ];
   return (
     <>
-      <div class="schems_parent parent bg-img-cover">
+      <div class="schems_parent parent bg-img-cover" id="schemes" >
         <div class="schemes_cont cont">
           <h3 class="heading">Schemes</h3>
           <div class="topbar">
