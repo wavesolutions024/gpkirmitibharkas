@@ -1,0 +1,63 @@
+.maji_vasundhara_parent {
+  width: 100%;
+  margin-top: calc(180px + 50px + 50px);
+  padding: 40px 0px;
+
+  .maji_vasundhara_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--unit);
+
+    .top_bar {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: var(--unit);
+
+      .top_btn {
+        padding: 10px 20px;
+        border: 1px solid var(--accent);
+        border-radius: 25px;
+        color: var(--accent);
+        cursor: pointer;
+
+        &.active {
+          background-color: var(--accent);
+          color: white;
+        }
+      }
+    }
+
+    .bottom_section {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: var(--unit);
+      flex-wrap: wrap;
+
+      .card {
+        width: 300px;
+        aspect-ratio: 1;
+        background-color: red;
+        border-radius: 14px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width:700px){
+    .maji_vasundhara_parent{
+          margin-top: calc(220px + 50px + 50px);
+    }
+}
+
+@media only screen and (max-width: 435px){
+    .maji_vasundhara_parent{
+        margin-top: calc(310px + 50px + 50px);
+    }
+}
