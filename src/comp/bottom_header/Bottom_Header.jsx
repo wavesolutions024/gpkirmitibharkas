@@ -9,7 +9,7 @@ const Bottom_Header = ({ translate }) => {
       {translate.map((item, index) => (
         <div class="bottom_header_parent parent" key={index}>
           <div class="bottom_header_cont cont">
-            <a href="#schemes">{item.header_Schemes}</a>
+            <a href="/#schemes">{item.header_Schemes}</a>
             <Link to="#">{item.header_Gallery}</Link>
             <Link href="">{item.header_Services}</Link>
             <a href="">{item.header_contact}</a>
