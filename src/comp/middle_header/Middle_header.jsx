@@ -1,6 +1,6 @@
 import React from "react";
 import "./Middle_header.scss";
-import flag from "../../assets/wave_flag.gif";
+import flag from "../../assets/Wave_Flag.gif";
 import logo from "../../assets/logo.png";
 import image1 from "../../assets/image1.png";
 import image2 from "../../assets/image2.png";
