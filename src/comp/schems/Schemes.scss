@@ -74,3 +74,33 @@
     }
   }
 }
+
+@media (max-width: 1260px) {
+  .schems_parent {
+    .schemes_cont {
+      .bottom_bar {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .schems_parent {
+    .schemes_cont {
+      .bottom_bar {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .schems_parent {
+    .schemes_cont {
+      .bottom_bar {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
+}
