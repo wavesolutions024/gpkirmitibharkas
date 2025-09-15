@@ -9,6 +9,7 @@ import { English } from "../src/Language/English";
 import { Marathi } from "../src/Language/Marathi";
 import Bottom_Header from "./comp/bottom_header/Bottom_Header";
 import Footer from "./comp/footer/Footer";
+import MajiVasundhara from "./pages/majivasundhara/MajiVasundhara";
 
 function App() {
   const [translate, setTranslate] = useState(English);
@@ -33,6 +34,7 @@ function App() {
         <Bottom_Header translate={translate} />
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/majivasundhara" element={<MajiVasundhara/>} />
         </Routes>
         <Footer/>
       </BrowserRouter>

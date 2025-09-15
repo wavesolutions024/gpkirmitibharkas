@@ -13,7 +13,7 @@ const Bottom_Header = ({ translate }) => {
             <Link to="#">{item.header_Gallery}</Link>
             <Link href="">{item.header_Services}</Link>
             <a href="#services">{item.header_contact}</a>
-            <Link href="">{item.header_majivasundhara}</Link>
+            <Link to="majivasundhara">{item.header_majivasundhara}</Link>
             <Link href="">{item.header_MukhyamantriSamudhi}</Link>
           </div>
           <div class="mobile_nav cont">
