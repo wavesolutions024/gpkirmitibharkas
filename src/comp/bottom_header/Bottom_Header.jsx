@@ -11,8 +11,8 @@ const Bottom_Header = ({ translate }) => {
           <div class="bottom_header_cont cont">
             <a href="#schemes">{item.header_Schemes}</a>
             <Link to="#">{item.header_Gallery}</Link>
-            <Link href="">{item.header_Services}</Link>
-            <a href="#services">{item.header_contact}</a>
+            <a href="#services">{item.header_Services}</a>
+            <a >{item.header_contact}</a>
             <Link href="">{item.header_majivasundhara}</Link>
             <Link href="">{item.header_MukhyamantriSamudhi}</Link>
           </div>

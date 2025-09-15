@@ -65,7 +65,7 @@ const Services = () => {
     <>
    {  close &&  <Popup listing={data[activeIndex]} setClose={setClose} />}
 
-      <div className="parent service-parent" >
+      <div className="parent service-parent" id="services">
         <div className="cont service-cont">
           <div className="service-wrap">
             <div className="service-top-site"></div>
