@@ -32,7 +32,7 @@ const Contact = ({ setContact }) => {
 
   return (
     <div className="contact_parent">
-      <form className="form">
+      <form className="form" onSubmit={Submit} >
         <div class="cross" onClick={() => setContact(false)}>
           <RxCross2 />
         </div>
