@@ -1,119 +1,72 @@
 import React, { useState } from "react";
 import "./Schemes.scss";
-const Schemes = () => {
+const Schemes = ({ translate }) => {
   const [active, setActive] = useState("state_government");
 
   const schemes = [
     {
       state_government: [
         {
-          title: "Panchayat Awards",
-          para: "Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) · Eligibility. Those living in scheduled caste and scheduled tribe households.",
+          title: translate[0].schem1_PanchayatAwards,
+          para: translate[0].schem1_PanchayatAwards_para,
         },
         {
-          title: "PM- SVANidhi",
-          para: "PM- SVANidhi Scheme, M/o Housing & Urban Affairs, Prime Minister Street Vendor's Atma Nirbhar Nidhi (PM SVANidhi) Scheme since June 01, 2020",
+          title: translate[0].schem1_PM_SVANidhi,
+          para: translate[0].schem1_PM_SVANidhi_para,
         },
         {
-          title: "Pradhan Mantri Mudra Yojana",
-          para: "Pradhan Mantri MUDRA Yojana (PMMY), Ministry of Finance, Pradhan Mantri MUDRA Yojana (PMMY) is a scheme launched by the Hon'ble Prime Minister",
+          title: translate[0].schem1_pmmy,
+          para: translate[0].schem1_pmmy_para,
         },
         {
-          title: "Deen Dayal Upadhyaya Antyodaya Yojana",
-          para: "Centrally Sponsored Scheme ; 2, Deen Dayal Upadhyaya Antyodaya Yojana, Ministry of Housing and urban affairs ; 3, PM Svanidhi Yojna",
+          title: translate[0].schem1_Pdduay,
+          para: translate[0].schem1_pdduay_para,
         },
-        {
-          title: "Panchayat Awards",
-          para: "Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) · Eligibility. Those living in scheduled caste and scheduled tribe households.",
-        },
-        {
-          title: "PM- SVANidhi",
-          para: "PM- SVANidhi Scheme, M/o Housing & Urban Affairs, Prime Minister Street Vendor's Atma Nirbhar Nidhi (PM SVANidhi) Scheme since June 01, 2020",
-        },
-        {
-          title: "Pradhan Mantri Mudra Yojana",
-          para: "PM- SVANidhi Scheme, M/o Housing & Urban Affairs, Prime Minister Street Vendor's Atma Nirbhar Nidhi (PM SVANidhi) Scheme since June 01, 2020",
-        },
-        {
-          title: "Deen Dayal Upadhyaya Antyodaya Yojana",
-          para: "PM- SVANidhi Scheme, M/o Housing & Urban Affairs, Prime Minister Street Vendor's Atma Nirbhar Nidhi (PM SVANidhi) Scheme since June 01, 2020",
-        },
+      
       ],
       Central_government: [
         {
-          title: "Panchayat Awards",
-          para: "Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) · Eligibility. Those living in scheduled caste and scheduled tribe households.",
+          title: translate[0].schem2_PanchayatAwards,
+          para: translate[0].schem2_PanchayatAwards_para,
         },
         {
-          title: "PM- SVANidhi",
-          para: "PM- SVANidhi Scheme, M/o Housing & Urban Affairs, Prime Minister Street Vendor's Atma Nirbhar Nidhi (PM SVANidhi) Scheme since June 01, 2020",
+          title: translate[0].schem2_PM_SVANidhi,
+          para: translate[0].schem2_PM_SVANidhi_para,
         },
         {
-          title: "Pradhan Mantri Mudra Yojana",
-          para: "Pradhan Mantri MUDRA Yojana (PMMY), Ministry of Finance, Pradhan Mantri MUDRA Yojana (PMMY) is a scheme launched by the Hon'ble Prime Minister",
+          title: translate[0].schem2_pmmy,
+          para: translate[0].schem2_pmmy_para,
         },
         {
-          title: "Deen Dayal Upadhyaya Antyodaya Yojana",
-          para: "Centrally Sponsored Scheme ; 2, Deen Dayal Upadhyaya Antyodaya Yojana, Ministry of Housing and urban affairs ; 3, PM Svanidhi Yojna",
-        },
-        {
-          title: "Panchayat Awards",
-          para: "Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) · Eligibility. Those living in scheduled caste and scheduled tribe households.",
-        },
-        {
-          title: "PM- SVANidhi",
-          para: "PM- SVANidhi Scheme, M/o Housing & Urban Affairs, Prime Minister Street Vendor's Atma Nirbhar Nidhi (PM SVANidhi) Scheme since June 01, 2020",
-        },
-        {
-          title: "Pradhan Mantri Mudra Yojana",
-          para: "PM- SVANidhi Scheme, M/o Housing & Urban Affairs, Prime Minister Street Vendor's Atma Nirbhar Nidhi (PM SVANidhi) Scheme since June 01, 2020",
-        },
-        {
-          title: "Deen Dayal Upadhyaya Antyodaya Yojana",
-          para: "PM- SVANidhi Scheme, M/o Housing & Urban Affairs, Prime Minister Street Vendor's Atma Nirbhar Nidhi (PM SVANidhi) Scheme since June 01, 2020",
+          title: translate[0].schem2_Pdduay,
+          para: translate[0].schem2_pdduay_para,
         },
       ],
       Joint_Venture: [
         {
-          title: "Panchayat Awards",
-          para: "Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) · Eligibility. Those living in scheduled caste and scheduled tribe households.",
+          title: translate[0].schem3_PanchayatAwards,
+          para: translate[0].schem3_PanchayatAwards_para,
         },
         {
-          title: "PM- SVANidhi",
-          para: "PM- SVANidhi Scheme, M/o Housing & Urban Affairs, Prime Minister Street Vendor's Atma Nirbhar Nidhi (PM SVANidhi) Scheme since June 01, 2020",
+          title: translate[0].schem3_PM_SVANidhi,
+          para: translate[0].schem3_PM_SVANidhi_para,
         },
         {
-          title: "Pradhan Mantri Mudra Yojana",
-          para: "Pradhan Mantri MUDRA Yojana (PMMY), Ministry of Finance, Pradhan Mantri MUDRA Yojana (PMMY) is a scheme launched by the Hon'ble Prime Minister",
+          title: translate[0].schem3_pmmy,
+          para: translate[0].schem3_pmmy_para,
         },
         {
-          title: "Deen Dayal Upadhyaya Antyodaya Yojana",
-          para: "Centrally Sponsored Scheme ; 2, Deen Dayal Upadhyaya Antyodaya Yojana, Ministry of Housing and urban affairs ; 3, PM Svanidhi Yojna",
-        },
-        {
-          title: "Panchayat Awards",
-          para: "Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) · Eligibility. Those living in scheduled caste and scheduled tribe households.",
-        },
-        {
-          title: "PM- SVANidhi",
-          para: "PM- SVANidhi Scheme, M/o Housing & Urban Affairs, Prime Minister Street Vendor's Atma Nirbhar Nidhi (PM SVANidhi) Scheme since June 01, 2020",
-        },
-        {
-          title: "Pradhan Mantri Mudra Yojana",
-          para: "PM- SVANidhi Scheme, M/o Housing & Urban Affairs, Prime Minister Street Vendor's Atma Nirbhar Nidhi (PM SVANidhi) Scheme since June 01, 2020",
-        },
-        {
-          title: "Deen Dayal Upadhyaya Antyodaya Yojana",
-          para: "PM- SVANidhi Scheme, M/o Housing & Urban Affairs, Prime Minister Street Vendor's Atma Nirbhar Nidhi (PM SVANidhi) Scheme since June 01, 2020",
+          title: translate[0].schem3_Pdduay,
+          para: translate[0].schem3_pdduay_para,
         },
       ],
     },
   ];
   return (
     <>
-      <div class="schems_parent parent bg-img-cover" id="schemes" >
+      <div class="schems_parent parent bg-img-cover" id="schemes">
         <div class="schemes_cont cont">
-          <h3 class="heading">Schemes</h3>
+          <h3 class="heading">{translate[0].scheme}</h3>
           <div class="topbar">
             <div
               class={
@@ -121,7 +74,7 @@ const Schemes = () => {
               }
               onClick={() => setActive("state_government")}
             >
-              State Government Schemes
+              {translate[0].scheme1}
             </div>
             <div
               class={
@@ -129,13 +82,13 @@ const Schemes = () => {
               }
               onClick={() => setActive("Central_government")}
             >
-              Central Government Scheme
+              {translate[0].scheme2}
             </div>
             <div
               class={active === "Joint_Venture" ? "top_btn active" : "top_btn"}
               onClick={() => setActive("Joint_Venture")}
             >
-              Joint Venture (S+C)
+              {translate[0].scheme3}
             </div>
           </div>
           {active === "state_government" && (

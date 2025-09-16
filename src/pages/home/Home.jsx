@@ -11,7 +11,7 @@ const Home = ({translate}) => {
          
           <Hero />
           <Leaders translate={translate}/>
-          <Schemes/>
+          <Schemes  translate={translate} />
           <Mahasanvad />
           <Services />
         </>
