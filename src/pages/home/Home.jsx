@@ -3,6 +3,7 @@ import Hero from '../../comp/hero/Hero'
 import Leaders from '../../comp/leaders/Leaders'
 import Schemes from '../../comp/schems/Schemes'
 import Services from '../../comp/services/Services'
+import Mahasanvad from '../../comp/mahasanvad/Mahasanvad'
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
           <Hero />
           <Leaders/>
           <Schemes/>
+          <Mahasanvad />
           <Services />
         </>
     )
