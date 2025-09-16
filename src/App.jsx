@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 
 import "./App.scss";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Top_header from "./comp/top_header/Top_header";
 import Middle_header from "./comp/middle_header/Middle_header";
 import Home from "./pages/home/Home";
 import { English } from "../src/Language/English";
@@ -29,9 +28,9 @@ function App() {
     <div className="app">
       <BrowserRouter>
         
-        <Top_header  setLang={setLang} lang={lang} />
+   
         <Middle_header />
-        <Bottom_Header translate={translate} />
+        <Bottom_Header translate={translate} setLang={setLang} lang={lang} />
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/majivasundhara" element={<MajiVasundhara/>} />

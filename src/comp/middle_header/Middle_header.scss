@@ -2,9 +2,9 @@
   width: 100%;
   height: 150px;
   background-color: white;
-  position: relative;
-  position: fixed;
-  top: 50px;
+  // position: relative;
+  position: absolute;
+  top: 0;
   z-index: 99;
 
   .overlay {
@@ -97,7 +97,7 @@
 
 @media only screen and (max-width: 435px){
     .middle_header_parent{
-        height: 200px;
+        height: 250px;
 
         .middle_header_cont{
           .left{
