@@ -1,16 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.scss";
 import { RxCross2 } from "react-icons/rx";
 
 const Contact = ({ setContact }) => {
+  const [loader, setLoader] = useState(false);
   function Submit(e) {
     e.preventDefault();
+    setLoader(true);
 
     const formEle = document.querySelector("form");
     const formDatab = new FormData(formEle);
     const date = new Date().toDateString();
 
-    formDatab.append("date", date);
+    formDatab.append("Date", date);
 
     fetch(
       "https://script.google.com/macros/s/AKfycbxmahtYoNMDESWm--t5qdw49xTB7FbtwDpnwcvC0L-75L5EmNh6HFp3kyi2_EbBlW2P2g/exec",
@@ -23,16 +25,17 @@ const Contact = ({ setContact }) => {
       .then((data) => {
         alert(data);
         formEle.reset();
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-        alert("Something went wrong. Please try again.");
       });
+
+    setLoader(false).catch((error) => {
+      console.error("Error:", error);
+      alert("Something went wrong. Please try again.");
+    });
   }
 
   return (
     <div className="contact_parent">
-      <form className="form" onSubmit={Submit} >
+      <form className="form" onSubmit={Submit}>
         <div class="cross" onClick={() => setContact(false)}>
           <RxCross2 />
         </div>
@@ -56,8 +59,8 @@ const Contact = ({ setContact }) => {
           <label htmlFor="message">Message</label>
           <textarea name="message" placeholder="Type your message" />
         </div>
-        <button type="submit" className="btn">
-          Send Message
+        <button type="submit" className="btn" disabled={loader}>
+          {loader ? "Message Sending..." : "Send Message"}
         </button>
       </form>
     </div>
