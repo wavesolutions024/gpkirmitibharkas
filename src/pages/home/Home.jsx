@@ -5,12 +5,12 @@ import Schemes from '../../comp/schems/Schemes'
 import Services from '../../comp/services/Services'
 import Mahasanvad from '../../comp/mahasanvad/Mahasanvad'
 
-const Home = () => {
+const Home = ({translate}) => {
     return (
         <>
          
           <Hero />
-          <Leaders/>
+          <Leaders translate={translate}/>
           <Schemes/>
           <Mahasanvad />
           <Services />

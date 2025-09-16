@@ -32,7 +32,7 @@ function App() {
         <Middle_header />
         <Bottom_Header translate={translate} setLang={setLang} lang={lang} />
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/" element={<Home translate={translate}/>} />
           <Route path="/majivasundhara" element={<MajiVasundhara/>} />
         </Routes>
         <Footer/>
