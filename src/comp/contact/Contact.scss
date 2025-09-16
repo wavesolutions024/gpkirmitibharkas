@@ -1,0 +1,43 @@
+.contact_parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background: var(--white);
+
+  .form {
+    background: var(--white);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    width: 100%;
+    max-width: 400px;
+
+    .input-wrap {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 18px;
+
+      label {
+        margin-bottom: 6px;
+        font-weight: 500;
+        color: #c9c8c8;
+      }
+
+      input,
+      textarea {
+        padding: 10px 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: var(--unit);
+        outline: none;
+    
+      }
+
+      input:focus,
+      textarea:focus {
+        border: 1.5px solid #b5d6fa;
+      }
+    }
+  }
+}
