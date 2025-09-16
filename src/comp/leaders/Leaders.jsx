@@ -57,7 +57,7 @@ const Leaders = ({translate}) => {
             <div class="card">
               <div class="top_section">
                 <div class="image">
-                  <img src={fd} alt="" />
+                  <img src={meghe} alt="" />
                 </div>
               </div>
               <div class="bottom_section">
@@ -69,7 +69,7 @@ const Leaders = ({translate}) => {
             <div class="card">
               <div class="top_section">
                 <div class="image">
-                  <img src={fd} alt="" />
+                  <img src={atish} alt="" />
                 </div>
               </div>
               <div class="bottom_section">
@@ -81,7 +81,7 @@ const Leaders = ({translate}) => {
             <div class="card">
               <div class="top_section">
                 <div class="image">
-                  <img src={fd} alt="" />
+                  <img src={roshni} alt="" />
                 </div>
               </div>
               <div class="bottom_section">
@@ -93,13 +93,13 @@ const Leaders = ({translate}) => {
             <div class="card">
               <div class="top_section">
                 <div class="image">
-                  <img src={fd} alt="" />
+                  <img src={punam} alt="" />
                 </div>
               </div>
               <div class="bottom_section">
-                <div class="label">{item.devendra_status}</div>
-                <h3 class="name">{item.devendra_name}</h3>
-                <p class="para">{item.devendra_desc}</p>
+                <div class="label">{item.punam_status}</div>
+                <h3 class="name">{item.punam_name}</h3>
+                <p class="para">{item.punam_desc}</p>
               </div>
             </div>
           </div>

@@ -19,17 +19,20 @@ export const English = [
     ajit_name: "Shri. Ajit Pawar",
     ajit_desc:
       "The Rural Development Department was established on May 1, 1960. The Rural Development Department of the Government of Maharashtra is working for the all-round development of rural areas.",
-    jaykumar_status: "Hon'ble Minister, Rural Development and Panchayat Raj,",
-    jaykumar_name: "Shri. Jayakumar Gore",
+    jaykumar_status: "MLA - Hingna Consitency,Maharastra Legislative Assembly",
+    jaykumar_name: "Shri. Sameer Meghe",
     jaykumar_desc:
       "The Rural Development Department was established on May 1, 1960. The Rural Development Department of the Government of Maharashtra is working for the all-round development of rural areas.",
-    yogesh_status: "Hon'ble Minister of State",
-    yogesh_name: "Shri. Yogesh Kadam",
+    yogesh_status: "Leader of opposition Zilla parishad, Nagpur ",
+    yogesh_name: "Shri. Atish Umare",
     yogesh_desc:
       "The Rural Development Department was established on May 1, 1960. The Rural Development Department of the Government of Maharashtra is working for the all-round development of rural areas.",
-    ek_status: "Principal Secretary",
-    ek_name: "Shri. Eknath Dawale",
+    ek_status: "Sarpanch Gram Panchayat Kirmiti Bharkas ",
+    ek_name: "Smt. Roshani Umare",
     ek_desc:
       "The Rural Development Department was established on May 1, 1960. The Rural Development Department of the Government of Maharashtra is working for the all-round development of rural areas.",
+      punam_name:"Punam Kalsarpe",
+      punam_status:"Secretary Gram Panchayat Kirmiti Bharkas",
+      punam_desc:"The Rural Development Department was established on May 1, 1960. The Rural Development Department of the Government of Maharashtra is working for the all-round development of rural areas."
   },
 ];
