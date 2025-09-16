@@ -2,8 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 700px;
-  background: var(--white);
+  height: 100svh;
+  background: rgba(0, 0, 0, 0.592);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  padding: 0px 10px;
 
   .form {
     background: var(--white);
@@ -12,6 +18,22 @@
     box-shadow: var(--shadow);
     width: 100%;
     max-width: 400px;
+    position: relative;
+
+    .cross {
+      position: absolute;
+      right: 5px;
+      border-radius: 50%;
+      top: 5px;
+      width: 30px;
+      aspect-ratio: 1;
+      background-color: var(--accent);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      color: var(--white);
+    }
 
     .input-wrap {
       display: flex;
@@ -31,7 +53,6 @@
         border-radius: 6px;
         font-size: var(--unit);
         outline: none;
-    
       }
 
       input:focus,
