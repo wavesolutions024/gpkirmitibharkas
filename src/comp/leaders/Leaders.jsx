@@ -20,7 +20,7 @@ const Leaders = ({translate}) => {
           <div class="leader_cont cont">
             <div class="card">
               <div class="top_section">
-                <div class="image">
+                <div class="image fd">
                   <img src={fd} alt="" />
                 </div>
               </div>
