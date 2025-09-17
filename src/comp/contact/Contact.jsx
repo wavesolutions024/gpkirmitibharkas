@@ -6,14 +6,13 @@ const Contact = ({ setContact }) => {
   const [loader, setLoader] = useState(false);
   function Submit(e) {
     e.preventDefault();
-    setLoader(true);
 
     const formEle = document.querySelector("form");
     const formDatab = new FormData(formEle);
     const date = new Date().toDateString();
 
     formDatab.append("Date", date);
-
+    setLoader(true);
     fetch(
       "https://script.google.com/macros/s/AKfycbxmahtYoNMDESWm--t5qdw49xTB7FbtwDpnwcvC0L-75L5EmNh6HFp3kyi2_EbBlW2P2g/exec",
       {
