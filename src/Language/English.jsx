@@ -62,6 +62,11 @@ export const English = [
       
       punam_name:"Smt. Punam Kalsarpe",
       punam_status:"Secretary Gram Panchayat Kirmiti Bharkas",
-      punam_desc:"Serving as Secretary of Gram Panchayat Kirmiti Bharkas, Smt Punam Kalsarpe manages administrative tasks, organizes meetings, coordinates implementation of development work, and supports the Sarpanch in executing village-level welfare plans."
+      punam_desc:"Serving as Secretary of Gram Panchayat Kirmiti Bharkas, Smt Punam Kalsarpe manages administrative tasks, organizes meetings, coordinates implementation of development work, and supports the Sarpanch in executing village-level welfare plans.",
+
+
+       atul_name:"Shri. Atul Gawande",
+      atul_status:"Deputy Sarpanch",
+      atul_desc:"Serving as Secretary of Gram Panchayat Kirmiti Bharkas, Smt Punam Kalsarpe manages administrative tasks, organizes meetings, coordinates implementation of development work, and supports the Sarpanch in executing village-level welfare plans.",
   },
 ];

@@ -43,6 +43,9 @@ export const Marathi = [
     punam_desc:
       "सौ. पुनम काळसरपे या किर्मीती भर्कस ग्रामपंचायतीच्या सचिव असून, त्या गाव प्रशासनाचे कामकाज, बैठका व योजना राबवण्याचे कार्य पाहतात आणि सरपंचांना मदत करतात.",
 
+      atul_name:"श्री. अतुल गवांडे",
+      atul_status:"उपसरपंच",
+      atul_desc:"Serving as Secretary of Gram Panchayat Kirmiti Bharkas, Smt Punam Kalsarpe manages administrative tasks, organizes meetings, coordinates implementation of development work, and supports the Sarpanch in executing village-level welfare plans.",
 
     scheme1: "राज्य शासन योजना",
     scheme2: "केंद्रीय शासन योजना",

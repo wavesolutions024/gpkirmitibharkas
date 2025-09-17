@@ -11,7 +11,7 @@ import roshni from "../../assets/roshni.png";
 
 
 
-const Leaders = ({translate}) => {
+const Leaders = ({ translate }) => {
 
   return (
     <>
@@ -90,6 +90,23 @@ const Leaders = ({translate}) => {
                 <p class="para">{item.ek_desc}</p>
               </div>
             </div>
+
+            <div class="card">
+              <div class="top_section">
+                <div class="image">
+                  <img src={roshni} alt="" />
+                </div>
+              </div>
+              <div class="bottom_section">
+                <div class="label">{item.atul_status}</div>
+                <h3 class="name">{item.atul_name}</h3>
+                <p class="para">{item.atul_desc}</p>
+              </div>
+            </div>
+
+
+
+
             <div class="card">
               <div class="top_section">
                 <div class="image">
