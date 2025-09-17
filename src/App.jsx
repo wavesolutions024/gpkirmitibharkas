@@ -9,33 +9,31 @@ import { Marathi } from "../src/Language/Marathi";
 import Bottom_Header from "./comp/bottom_header/Bottom_Header";
 import Footer from "./comp/footer/Footer";
 import MajiVasundhara from "./pages/majivasundhara/MajiVasundhara";
+import ScrollToTop from "./comp/scrolltoTop/ScrollToTop";
 
 function App() {
   const [translate, setTranslate] = useState(English);
-  const [lang,setLang] = useState("English")
+  const [lang, setLang] = useState("English");
 
-
-
-  useEffect(()=>{
-  if(lang === "English"){
-    setTranslate(English);
-  }else if(lang === "Marathi"){
-    setTranslate(Marathi)
-  }
-  },[lang])
+  useEffect(() => {
+    if (lang === "English") {
+      setTranslate(English);
+    } else if (lang === "Marathi") {
+      setTranslate(Marathi);
+    }
+  }, [lang]);
 
   return (
     <div className="app">
       <BrowserRouter>
-        
-   
+        <ScrollToTop />
         <Middle_header />
         <Bottom_Header translate={translate} setLang={setLang} lang={lang} />
         <Routes>
-          <Route path="/" element={<Home translate={translate}/>} />
-          <Route path="/majivasundhara" element={<MajiVasundhara/>} />
+          <Route path="/" element={<Home translate={translate} />} />
+          <Route path="/majivasundhara" element={<MajiVasundhara />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </div>
   );

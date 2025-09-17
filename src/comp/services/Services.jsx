@@ -2,22 +2,22 @@ import React, { useState } from "react";
 import "./Services.scss";
 import Popup from "../../pages/popup/Popup";
 
-const Services = () => {
+const Services = ({translate}) => {
     
   const [close, setClose] = useState(false);
   const [activeIndex, setActiveIndex] = useState();
 
   const data = [
     {
-      label: "Birth Certificate",
+      label: translate[0].bith_certificate,
       children: ["लाभार्थी आधार कार्ड झेरॉक्स", "आई वडील आधार कार्ड झेरॉक्स"],
     },
     {
-      label: "Death Certificate",
+      label: translate[0].death_certificate,
       children: ["मृत व्यक्ती आधार ", "आई वडील आधार कार्ड झेरॉक्स"],
     },
     {
-      label: "Resident Certificate",
+      label: translate[0].resdient_certificate,
       children: [
         "रहिवाशी दाखला कागदपत्रे",
         "लाभार्थी आधार कार्ड झेरॉक्स",
@@ -26,7 +26,7 @@ const Services = () => {
       ],
     },
     {
-      label: "Marriage Certificate",
+      label: translate[0].marriage_Certificate,
       children: [
         "वर वधू आधार कार्ड झेरॉक्स",
         "प्रतिज्ञा पत्र",
@@ -40,11 +40,11 @@ const Services = () => {
       ],
     },
     {
-      label: "No Due Certificate",
+      label: translate[0].no_due_certificate,
       children: ["लाभार्थी आधार कार्ड झेरॉक्स", "आई वडील आधार कार्ड झेरॉक्स"],
     },
     {
-      label: "Other",
+      label: translate[0].other,
       children: ["लाभार्थी आधार कार्ड झेरॉक्स", "आई वडील आधार कार्ड झेरॉक्स"],
     },
   ];

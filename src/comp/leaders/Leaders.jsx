@@ -7,6 +7,7 @@ import meghe from "../../assets/sm.png";
 import atish from "../../assets/atish.png";
 import punam from "../../assets/punam.png";
 import roshni from "../../assets/roshni.png";
+import atul from "../../assets/autl.jpeg"
 
 
 
@@ -94,7 +95,7 @@ const Leaders = ({ translate }) => {
             <div class="card">
               <div class="top_section">
                 <div class="image">
-                  <img src={roshni} alt="" />
+                  <img src={atul} alt="" />
                 </div>
               </div>
               <div class="bottom_section">

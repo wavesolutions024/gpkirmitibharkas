@@ -6,7 +6,7 @@ import logo3 from "../../assets/image3.png";
 import logo4 from "../../assets/image4.png";
 import tai from "../../assets/pankajataimunde.jpg";
 
-const Mahasanvad = () => {
+const Mahasanvad = ({ translate }) => {
   return (
     <>
       <div className="parent maha-parent bg-img-cover">
@@ -20,11 +20,8 @@ const Mahasanvad = () => {
 
           <div className="content">
             <div className="left">
-              <h2>महासंवाद</h2>
-              <p>
-                स्थानिक स्वराज संस्थांमध्ये माझी वसुंधरा अभियान ६.० राबविणार –
-                पर्यावरण व वातावरणीय बदल मंत्री पंकजा मुंडे
-              </p>
+              <h2>{translate[0].mahasamvad} </h2>
+              <p>{translate[0].mahasamvad_para}</p>
             </div>
             <div className="right">
               <img src={tai} alt="" />

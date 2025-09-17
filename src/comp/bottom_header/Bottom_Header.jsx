@@ -33,7 +33,7 @@ const Bottom_Header = ({ translate, setLang, lang }) => {
     <>
       {translate.map((item, index) => (
         <>
-         { contact && <Contact setContact={setContact} />}
+          {contact && <Contact setContact={setContact} />}
           <div
             class={
               active2
@@ -46,7 +46,7 @@ const Bottom_Header = ({ translate, setLang, lang }) => {
               <div class="left">
                 <a href="/#schemes">{item.header_Schemes}</a>
                 <Link to="#">{item.header_Gallery}</Link>
-                <Link href="">{item.header_Services}</Link>
+                <a href="/#services">{item.header_Services}</a>
                 <a href="#" onClick={() => setContact(true)}>
                   {item.header_contact}
                 </a>
@@ -129,14 +129,28 @@ const Bottom_Header = ({ translate, setLang, lang }) => {
                   : "mobile_nav_option cont"
               }
             >
-              <Link href="">{item.header_Schemes}</Link>
-              <Link href="">{item.header_Gallery}</Link>
-              <Link href="">{item.header_Services}</Link>
-              <Link href="#" onClick={() => setContact(true)}>
-                {item.header_contact}
+              <a href="/#schemes" onClick={() => setActive(false)}>
+                {item.header_Schemes}
+              </a>
+              <Link to="#" onClick={() => setActive(false)}>
+                {item.header_Gallery}
               </Link>
-              <Link href="">{item.header_majivasundhara}</Link>
-              <Link href="">{item.header_MukhyamantriSamudhi}</Link>
+              <a href="/#services" onClick={() => setActive(false)}>
+                {item.header_Services}
+              </a>
+              <a href="#" onClick={() => setContact(true)}>
+                {item.header_contact}
+              </a>
+              <Link
+                to="/majivasundhara"
+                onClick={() => setActive(false)}
+                
+              >
+                {item.header_majivasundhara}
+              </Link>
+              <Link href="" onClick={() => setActive(false)}>
+                {item.header_MukhyamantriSamudhi}
+              </Link>
             </div>
           </div>
         </>

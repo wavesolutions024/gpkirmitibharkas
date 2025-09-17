@@ -31,42 +31,63 @@ export const English = [
     ek_name: "Smt. Roshani Umare",
     ek_desc:
       "As Sarpanch of Gram Panchayat Kirmiti Bharkas, Smt Roshani Umare leads local governance, oversees ward-level development (roads, water supply, sanitation), represents the community, and implements state rural schemes to benefit residents.",
-      scheme1:"State Government Schemes",
-      scheme2:"Central Government Scheme",
-      scheme3:"Joint Venture (S+C)",
-      scheme:"Schemes",
-      schem1_PanchayatAwards :"Panchayat Awards",
-      schem1_PanchayatAwards_para : "Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) · Eligibility. Those living in scheduled caste and scheduled tribe households.",
-      schem1_PM_SVANidhi :"PM- SVANidhi",
-      schem1_PM_SVANidhi_para : "PM- SVANidhi Scheme, M/o Housing & Urban Affairs, Prime Minister Street Vendor's Atma Nirbhar Nidhi (PM SVANidhi) Scheme since June 01, 2020",
-      schem1_pmmy :"Pradhan Mantri Mudra Yojana",
-      schem1_pmmy_para : "Pradhan Mantri MUDRA Yojana (PMMY), Ministry of Finance, Pradhan Mantri MUDRA Yojana (PMMY) is a scheme launched by the Hon'ble Prime Minister",
-      schem1_Pdduay :"Deen Dayal Upadhyaya Antyodaya Yojana",
-      schem1_pdduay_para : "Centrally Sponsored Scheme ; 2, Deen Dayal Upadhyaya Antyodaya Yojana, Ministry of Housing and urban affairs ; 3, PM Svanidhi Yojna",
-      schem2_PanchayatAwards :"Panchayat Awards",
-      schem2_PanchayatAwards_para : "Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) · Eligibility. Those living in scheduled caste and scheduled tribe households.",
-      schem2_PM_SVANidhi :"PM- SVANidhi",
-      schem2_PM_SVANidhi_para : "PM- SVANidhi Scheme, M/o Housing & Urban Affairs, Prime Minister Street Vendor's Atma Nirbhar Nidhi (PM SVANidhi) Scheme since June 01, 2020",
-      schem2_pmmy :"Pradhan Mantri Mudra Yojana",
-      schem2_pmmy_para : "Pradhan Mantri MUDRA Yojana (PMMY), Ministry of Finance, Pradhan Mantri MUDRA Yojana (PMMY) is a scheme launched by the Hon'ble Prime Minister",
-      schem2_Pdduay :"Deen Dayal Upadhyaya Antyodaya Yojana",
-      schem2_pdduay_para : "Centrally Sponsored Scheme ; 2, Deen Dayal Upadhyaya Antyodaya Yojana, Ministry of Housing and urban affairs ; 3, PM Svanidhi Yojna",
-      schem3_PanchayatAwards :"Panchayat Awards",
-      schem3_PanchayatAwards_para : "Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) · Eligibility. Those living in scheduled caste and scheduled tribe households.",
-      schem3_PM_SVANidhi :"PM- SVANidhi",
-      schem3_PM_SVANidhi_para : "PM- SVANidhi Scheme, M/o Housing & Urban Affairs, Prime Minister Street Vendor's Atma Nirbhar Nidhi (PM SVANidhi) Scheme since June 01, 2020",
-      schem3_pmmy :"Pradhan Mantri Mudra Yojana",
-      schem3_pmmy_para : "Pradhan Mantri MUDRA Yojana (PMMY), Ministry of Finance, Pradhan Mantri MUDRA Yojana (PMMY) is a scheme launched by the Hon'ble Prime Minister",
-      schem3_Pdduay :"Deen Dayal Upadhyaya Antyodaya Yojana",
-      schem3_pdduay_para : "Centrally Sponsored Scheme ; 2, Deen Dayal Upadhyaya Antyodaya Yojana, Ministry of Housing and urban affairs ; 3, PM Svanidhi Yojna",
-      
-      punam_name:"Smt. Punam Kalsarpe",
-      punam_status:"Secretary Gram Panchayat Kirmiti Bharkas",
-      punam_desc:"Serving as Secretary of Gram Panchayat Kirmiti Bharkas, Smt Punam Kalsarpe manages administrative tasks, organizes meetings, coordinates implementation of development work, and supports the Sarpanch in executing village-level welfare plans.",
+    punam_name: "Smt. Punam Kalsarpe",
+    punam_status: "Secretary Gram Panchayat Kirmiti Bharkas",
+    punam_desc:
+      "Serving as Secretary of Gram Panchayat Kirmiti Bharkas, Smt Punam Kalsarpe manages administrative tasks, organizes meetings, coordinates implementation of development work, and supports the Sarpanch in executing village-level welfare plans.",
 
+    atul_name: "Shri. Atul Gawande",
+    atul_status: "Deputy Sarpanch",
+    atul_desc:
+      "Serving as Secretary of Gram Panchayat Kirmiti Bharkas, Smt Punam Kalsarpe manages administrative tasks, organizes meetings, coordinates implementation of development work, and supports the Sarpanch in executing village-level welfare plans.",
 
-       atul_name:"Shri. Atul Gawande",
-      atul_status:"Deputy Sarpanch",
-      atul_desc:"Serving as Secretary of Gram Panchayat Kirmiti Bharkas, Smt Punam Kalsarpe manages administrative tasks, organizes meetings, coordinates implementation of development work, and supports the Sarpanch in executing village-level welfare plans.",
+    scheme1: "State Government Schemes",
+    scheme2: "Central Government Scheme",
+    scheme3: "Joint Venture (S+C)",
+    scheme: "Schemes",
+    schem1_PanchayatAwards: "LIDCOM Gattai Stall Scheme",
+    schem1_PanchayatAwards_para:
+      "Being implemented by LIDCOM, Govt. of Maharashtra for the Roadsides Cobblers from the (Scheduled Caste) Charmakar Community, this scheme provides a 100% subsidy for the erection of a Tin Stall of Size 4’ x 5’ x 6.5’ costing ₹16367/- per stall and ₹500/- incidental charges.",
+    schem1_PM_SVANidhi: "The Scheme Of State Award For Disabled",
+    schem1_PM_SVANidhi_para:
+      "The 'The Scheme of State Award for Disabled' is a scheme by the Dept. of Social Justice & Special Assistance, Govt. of Maharashtra. In this scheme, every year, the State Government felicitates awards to the Best Disabled Employees/Employers/Placement Agencies who have done outstanding work.",
+    schem1_pmmy: "Merit Awards",
+    schem1_pmmy_para:
+      "In the 'Merit Awards' scheme, awards are given to the students with disability who rank 1st, 2nd, and 3rd among disabled students in the Secondary School Certificate (S.S.C.) and Higher Secondary Certificate (H.S.C.) in their respective divisional boards of education.",
+    schem1_Pdduay: "State Post-metric Scholarship For Disabled",
+    schem1_pdduay_para:
+      "The 'State Post-metric Scholarship for Disabled' is a scheme by the Department of Social Justice & Special Assistance, Govt. of Maharashtra. The objective of this scheme is to encourage students with disability (SwDs) to pursue higher education.",
+    schem2_PanchayatAwards: "Student Internship Programme",
+    schem2_PanchayatAwards_para:
+      "The Student Internship Program, a unique learning opportunity aims to provide the Interns exposure to the functioning of the CAG of India and the Indian Audit & Accounts Department.",
+    schem2_PM_SVANidhi: "Scheme For Financial Assistance For Veteran Artists",
+    schem2_PM_SVANidhi_para:
+      "A pension scheme by MoC improves the financial and socio-economic status of the old artists and scholars who have contributed significantly in their specialized fields. Still, due to old age, they have to lead a miserable life or are in penury condition.",
+    schem2_pmmy:
+      "Award Of Scholarships To Young Artists In Different Cultural Fields",
+    schem2_pmmy_para:
+      "The scheme “Award of Scholarships to Young Artists in Different Cultural Fields” was launched by the Ministry of Culture, Government of India.",
+    schem2_Pdduay: "Pradhan Mantri Mudra Yojana",
+    schem2_pdduay_para:
+      "Pradhan Mantri Mudra Yojana (PMMY) is a flagship scheme of Government of India. It facilitates micro credit/Loan upto Rs. 20 lakhs to income generating micro enterprises engaged in the non farm sector in manufacturing, processing, trading or service sector including activities allied to agriculture",
+    schem3_PanchayatAwards: "Revamped Rashtriy Gram Swaraj Abhiyan",
+    schem3_PanchayatAwards_para:
+      "Central Government implemented “Rashtriy Gram Swaraj Abhiyan” by reconstituting Rajiv Gandhi Panchayat Sashaktikaran Abhiyan. The ratio of Central and State share is 60:40. In the year 2022-23 Rashtriy Gram Swaraj Abhiyan was revising and the scheme “Revamped – Rashtriy Gram Swaraj Abhiyan ” was declared.",
+    schem3_PM_SVANidhi: "Pandit Dindayal Upadhyay Panchayat Empowerment Award",
+    schem3_PM_SVANidhi_para:
+      "Pandit Dindayal Upadhyay Panchayat Empowerment Award Center Awarded / Center-State Awarded / State Awarded Center sponsored Brief information about the…",
+    // schem3_pmmy :"Pradhan Mantri Mudra Yojana",
+    // schem3_pmmy_para : "Pradhan Mantri MUDRA Yojana (PMMY), Ministry of Finance, Pradhan Mantri MUDRA Yojana (PMMY) is a scheme launched by the Hon'ble Prime Minister",
+    // schem3_Pdduay :"Deen Dayal Upadhyaya Antyodaya Yojana",
+    // schem3_pdduay_para : "Centrally Sponsored Scheme ; 2, Deen Dayal Upadhyaya Antyodaya Yojana, Ministry of Housing and urban affairs ; 3, PM Svanidhi Yojna",
+    mahasamvad:"Mahasamvad",
+    mahasamvad_para:"My Vasundhara Abhiyan 6.0 to be implemented in local self-government bodies – Environment and Climate Change Minister Pankaja Munde",
+    bith_certificate:"Bith Certificate",
+    death_certificate:"Death Certificate",
+    resdient_certificate:"Resdient Certificate",
+    marriage_Certificate:"Marriage Certificate",
+    no_due_certificate:"No Due Certificate",
+    other:"Other"
+
   },
 ];
