@@ -3,6 +3,7 @@ import "./Leaders.scss";
 import fd from "../../assets/fd.png";
 import shinde from "../../assets/es.png";
 import pawar from "../../assets/ap.png";
+import bawankule from "../../assets/cb.webp";
 import meghe from "../../assets/sm.png";
 import atish from "../../assets/atish.png";
 import punam from "../../assets/punam.png";
@@ -12,8 +13,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Leaders = ({ translate }) => {
-
-
   useEffect(() => {
     AOS.init({
       duration: 1200,
@@ -26,7 +25,7 @@ const Leaders = ({ translate }) => {
   return (
     <>
       {translate.map((item, index) => (
-        <div class="leaders_parent parent"  key={index}>
+        <div class="leaders_parent parent" key={index}>
           <div class="leader_cont cont">
             <div class="card" data-aos="fade-up">
               <div class="top_section">
@@ -52,6 +51,7 @@ const Leaders = ({ translate }) => {
                 <p class="para">{item.eknath_desc}</p>
               </div>
             </div>
+
             <div class="card" data-aos="fade-up">
               <div class="top_section">
                 <div class="image">
@@ -64,6 +64,20 @@ const Leaders = ({ translate }) => {
                 <p class="para">{item.ajit_desc}</p>
               </div>
             </div>
+
+            <div class="card" data-aos="fade-up">
+              <div class="top_section">
+                <div class="image">
+                  <img src={bawankule} alt="" />
+                </div>
+              </div>
+              <div class="bottom_section">
+                <div class="label">{item.bawankule_status}</div>
+                <h3 class="name">{item.bawankule_name}</h3>
+                <p class="para">{item.bawankule_desc}</p>
+              </div>
+            </div>
+
             <div class="card" data-aos="fade-up">
               <div class="top_section">
                 <div class="image">

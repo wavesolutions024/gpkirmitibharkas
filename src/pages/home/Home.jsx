@@ -9,7 +9,7 @@ const Home = ({translate}) => {
     return (
         <>
          
-          <Hero />
+          <Hero translate={translate} />
           <Leaders translate={translate}/>
           <Schemes  translate={translate} />
           <Mahasanvad translate={translate} />

@@ -7,6 +7,9 @@ export const English = [
     header_contact: "Contact Us",
     header_majivasundhara: "Maji Vasundhara Abhiyan",
     header_MukhyamantriSamudhi: "Mukhyamantri Samudhi Panchayat Raj Abhiyan",
+    marque_title:
+      "Shravan Bal Seva Rajya Nivruttivetan Yojana | Sanjay Gandhi Niradhar Anudan Yojana",
+
     devendra_status: "Hon'ble Chief Minister",
     devendra_name: "Shri. Devendra Fadnavis",
     devendra_desc:
@@ -19,6 +22,12 @@ export const English = [
     ajit_name: "Shri. Ajit Pawar",
     ajit_desc:
       "As Deputy CM, Ajit Pawar is involved in Maharashtra’s push for greater agricultural support and rural development: pushing policies for agricultural infrastructure, fair pricing, and enhancing farmer insurance to mitigate risks from crop loss due to weather",
+
+    bawankule_status: "President of the Bharatiya Janata Party,Maharashtra",
+    bawankule_name: "Shri. Chandrashekhar Bawankule",
+    bawankule_desc:
+      "As a member of the Bharatiya Janata Party (BJP), he represented the Kamptee Assembly Constituency, being elected from there in 2004, 2009 & 2014.[7] In 2012, he was made Secretary of the Bhartiya Janata Party, Maharashtra.",
+
     jaykumar_status: "MLA - Hingna Consitency,Maharastra Legislative Assembly",
     jaykumar_name: "Shri. Sameer Meghe",
     jaykumar_desc:
@@ -80,14 +89,14 @@ export const English = [
     // schem3_pmmy_para : "Pradhan Mantri MUDRA Yojana (PMMY), Ministry of Finance, Pradhan Mantri MUDRA Yojana (PMMY) is a scheme launched by the Hon'ble Prime Minister",
     // schem3_Pdduay :"Deen Dayal Upadhyaya Antyodaya Yojana",
     // schem3_pdduay_para : "Centrally Sponsored Scheme ; 2, Deen Dayal Upadhyaya Antyodaya Yojana, Ministry of Housing and urban affairs ; 3, PM Svanidhi Yojna",
-    mahasamvad:"Mahasamvad",
-    mahasamvad_para:"My Vasundhara Abhiyan 6.0 to be implemented in local self-government bodies – Environment and Climate Change Minister Pankaja Munde",
-    bith_certificate:"Bith Certificate",
-    death_certificate:"Death Certificate",
-    resdient_certificate:"Resdient Certificate",
-    marriage_Certificate:"Marriage Certificate",
-    no_due_certificate:"No Due Certificate",
-    other:"Other"
-
+    mahasamvad: "Mahasamvad",
+    mahasamvad_para:
+      "My Vasundhara Abhiyan 6.0 to be implemented in local self-government bodies – Environment and Climate Change Minister Pankaja Munde",
+    bith_certificate: "Bith Certificate",
+    death_certificate: "Death Certificate",
+    resdient_certificate: "Resdient Certificate",
+    marriage_Certificate: "Marriage Certificate",
+    no_due_certificate: "No Due Certificate",
+    other: "Other",
   },
 ];

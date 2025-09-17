@@ -9,7 +9,7 @@ import slide1 from "../../assets/slide1.jpeg";
 import slide2 from "../../assets/slide2.jpeg";
 import slide3 from "../../assets/slide3.jpeg";
 
-const Hero = () => {
+const Hero = ({ translate }) => {
   useEffect(() => {
     AOS.init({
       duration: 1200,
@@ -18,10 +18,6 @@ const Hero = () => {
     });
     AOS.refresh();
   }, []);
-
-  const data = ["Breaking News: Event 1", "Update: Event 2", "Alert: Event 3"];
-
-  const marqueeText = data.join("  |  ");
 
   return (
     <div className="parent hero-parent bg-img-cover" data-aos="fade-up">
@@ -35,10 +31,10 @@ const Hero = () => {
         <SwiperSlide>
           <img src={slide3} alt="Slide 1" className="hero-slide-img" />
         </SwiperSlide>
-      
       </Swiper>
+
       <div className="custom-marquee">
-        <span className="marquee-text">{marqueeText}</span>
+        <span className="marquee-text">{translate?.[0]?.marque_title}</span>
       </div>
     </div>
   );
