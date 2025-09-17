@@ -7,9 +7,9 @@ import image4 from "../../assets/image4.png";
 import { FiMail } from "react-icons/fi";
 import { MdOutlinePhoneAndroid } from "react-icons/md";
 import { BiLogoFacebook } from "react-icons/bi";
-import { RiTwitterXFill } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
-import { RiLinkedinFill } from "react-icons/ri";
+import { IoLogoYoutube } from "react-icons/io";
+
 const Footer = () => {
   return (
     <>
@@ -50,18 +50,16 @@ const Footer = () => {
           <div class="right">
             <h1>Social Media</h1>
             <div class="social_icons">
-              <a href="">
+              <a target="_blank" href="https://www.facebook.com/grampanchayt.kirmiti.3/">
                 <BiLogoFacebook />
               </a>
-              <a href="">
-                <RiTwitterXFill />
+              <a target="_blank" href="https://www.youtube.com/@majhivasundharaabhiyan7146">
+                <IoLogoYoutube />
               </a>
-              <a href="">
+              <a target="_blank" href="https://www.instagram.com/majhi_vasundhara6.0/">
                 <FaInstagram />
               </a>
-              <a href="">
-                <RiLinkedinFill />
-              </a>
+              
             </div>
           </div>
         </div>

@@ -1,5 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Schemes.scss";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Schemes = ({ translate }) => {
   const [active, setActive] = useState("state_government");
 
@@ -71,9 +74,20 @@ const Schemes = ({ translate }) => {
       ],
     },
   ];
+
+ useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      once: false,
+      mirror: true,
+    });
+    AOS.refresh();
+  }, []);
+
+
   return (
     <>
-      <div class="schems_parent parent bg-img-cover" id="schemes">
+      <div class="schems_parent parent bg-img-cover" id="schemes" data-aos="fade-up">
         <div class="schemes_cont cont">
           <h3 class="heading">{translate[0].scheme}</h3>
           <div class="topbar">

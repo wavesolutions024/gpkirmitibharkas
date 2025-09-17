@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Leaders.scss";
 import fd from "../../assets/fd.png";
 import shinde from "../../assets/es.png";
@@ -7,19 +7,28 @@ import meghe from "../../assets/sm.png";
 import atish from "../../assets/atish.png";
 import punam from "../../assets/punam.png";
 import roshni from "../../assets/roshni.png";
-import atul from "../../assets/autl.jpeg"
-
-
-
+import atul from "../../assets/autl.jpeg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Leaders = ({ translate }) => {
+
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      once: false,
+      mirror: true,
+    });
+    AOS.refresh();
+  }, []);
 
   return (
     <>
       {translate.map((item, index) => (
-        <div class="leaders_parent parent" key={index}>
+        <div class="leaders_parent parent"  key={index}>
           <div class="leader_cont cont">
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <div class="top_section">
                 <div class="image fd">
                   <img src={fd} alt="" />
@@ -31,7 +40,7 @@ const Leaders = ({ translate }) => {
                 <p class="para">{item.devendra_desc}</p>
               </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <div class="top_section">
                 <div class="image">
                   <img src={shinde} alt="" />
@@ -43,7 +52,7 @@ const Leaders = ({ translate }) => {
                 <p class="para">{item.eknath_desc}</p>
               </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <div class="top_section">
                 <div class="image">
                   <img src={pawar} alt="" />
@@ -55,7 +64,7 @@ const Leaders = ({ translate }) => {
                 <p class="para">{item.ajit_desc}</p>
               </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <div class="top_section">
                 <div class="image">
                   <img src={meghe} alt="" />
@@ -67,7 +76,7 @@ const Leaders = ({ translate }) => {
                 <p class="para">{item.jaykumar_desc}</p>
               </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <div class="top_section">
                 <div class="image">
                   <img src={atish} alt="" />
@@ -79,7 +88,7 @@ const Leaders = ({ translate }) => {
                 <p class="para">{item.yogesh_desc}</p>
               </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <div class="top_section">
                 <div class="image">
                   <img src={roshni} alt="" />
@@ -92,7 +101,7 @@ const Leaders = ({ translate }) => {
               </div>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <div class="top_section">
                 <div class="image">
                   <img src={atul} alt="" />
@@ -105,10 +114,7 @@ const Leaders = ({ translate }) => {
               </div>
             </div>
 
-
-
-
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <div class="top_section">
                 <div class="image">
                   <img src={punam} alt="" />
@@ -127,4 +133,4 @@ const Leaders = ({ translate }) => {
   );
 };
 
-export default Leaders
+export default Leaders;

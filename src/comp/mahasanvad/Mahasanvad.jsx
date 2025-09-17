@@ -1,15 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Mahasanvad.scss";
 import logo1 from "../../assets/image1.png";
 import logo2 from "../../assets/image2.png";
 import logo3 from "../../assets/image3.png";
 import logo4 from "../../assets/image4.png";
 import tai from "../../assets/pankajataimunde.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Mahasanvad = ({ translate }) => {
+
+
+ useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      once: false,
+      mirror: true,
+    });
+    AOS.refresh();
+  }, []);
+
+
   return (
     <>
-      <div className="parent maha-parent bg-img-cover">
+      <div className="parent maha-parent bg-img-cover" data-aos="fade-up">
         <div className="cont maha-cont">
           <div className="icons">
             <img src={logo1} alt="" />

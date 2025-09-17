@@ -5,8 +5,9 @@ import { RxCross2 } from "react-icons/rx";
 import { SlSocialFacebook } from "react-icons/sl";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa";
-import { FiLinkedin } from "react-icons/fi";
 import Contact from "../contact/Contact";
+
+
 const Bottom_Header = ({ translate, setLang, lang }) => {
   const [active, setActive] = useState(false);
   const [active2, setActive2] = useState(false);
@@ -29,6 +30,11 @@ const Bottom_Header = ({ translate, setLang, lang }) => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+
+
+
+
   return (
     <>
       {translate.map((item, index) => (
@@ -55,13 +61,13 @@ const Bottom_Header = ({ translate, setLang, lang }) => {
               </div>
 
               <div class="right">
-                <a href="">
+                <a target="_blank" href="https://www.facebook.com/grampanchayt.kirmiti.3/">
                   <SlSocialFacebook />
                 </a>
-                <a href="">
+                <a target="_blank" href="https://www.youtube.com/@majhivasundharaabhiyan7146">
                   <IoLogoYoutube />
                 </a>
-                <a href="">
+                <a target="_blank" href="https://www.instagram.com/majhi_vasundhara6.0/">
                   <FaInstagram />
                 </a>
 
@@ -95,13 +101,13 @@ const Bottom_Header = ({ translate, setLang, lang }) => {
               )}
 
               <div class="right">
-                <a href="">
+                <a target="_blank" href="https://www.facebook.com/grampanchayt.kirmiti.3/">
                   <SlSocialFacebook />
                 </a>
-                <a href="">
+                <a target="_blank" href="https://www.youtube.com/@majhivasundharaabhiyan7146">
                   <IoLogoYoutube />
                 </a>
-                <a href="">
+                <a target="_blank" href="https://www.instagram.com/majhi_vasundhara6.0/">
                   <FaInstagram />
                 </a>
 

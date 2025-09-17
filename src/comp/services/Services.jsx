@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Services.scss";
 import Popup from "../../pages/popup/Popup";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-const Services = ({translate}) => {
-    
+const Services = ({ translate }) => {
   const [close, setClose] = useState(false);
   const [activeIndex, setActiveIndex] = useState();
 
@@ -48,6 +49,14 @@ const Services = ({translate}) => {
       children: ["लाभार्थी आधार कार्ड झेरॉक्स", "आई वडील आधार कार्ड झेरॉक्स"],
     },
   ];
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      once: false,
+      mirror: true,
+    });
+    AOS.refresh();
+  }, []);
 
   const update = [
     {
@@ -81,7 +90,7 @@ const Services = ({translate}) => {
     <>
       {close && <Popup listing={data[activeIndex]} setClose={setClose} />}
 
-      <div className="parent service-parent" id="services">
+      <div className="parent service-parent" id="services" data-aos="fade-up">
         <div className="cont service-cont">
           <div className="service-wrap">
             <div className="service-top-site"></div>
