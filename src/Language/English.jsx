@@ -10,27 +10,27 @@ export const English = [
     devendra_status: "Hon'ble Chief Minister",
     devendra_name: "Shri. Devendra Fadnavis",
     devendra_desc:
-      "The Rural Development Department was established on May 1, 1960. The Rural Development Department of the Government of Maharashtra is working for the all-round development of rural areas.",
+      "Under CM Fadnavis, Maharashtra’s rural landscape is transforming via the “SMART” project: State of Maharashtra Agribusiness & Rural Transformation. Rolled out in 10,000 villages, it boosts farming value chains, infrastructure, and sustainable livelihoods.",
     eknath_status: "Hon'ble Deputy Chief Minister",
     eknath_name: "Shri. Eknath Shinde",
     eknath_desc:
-      "The Rural Development Department was established on May 1, 1960. The Rural Development Department of the Government of Maharashtra is working for the all-round development of rural areas.",
+      "Deputy CM Shinde has spearheaded large-scale investment in Marathwada: a ₹45,000 crore development package including irrigation works worth ₹14,000 crore, aiming to bring 8 lakh hectares under irrigation and improve road and water infrastructure.",
     ajit_status: "Hon'ble Deputy Chief Minister",
     ajit_name: "Shri. Ajit Pawar",
     ajit_desc:
-      "The Rural Development Department was established on May 1, 1960. The Rural Development Department of the Government of Maharashtra is working for the all-round development of rural areas.",
+      "As Deputy CM, Ajit Pawar is involved in Maharashtra’s push for greater agricultural support and rural development: pushing policies for agricultural infrastructure, fair pricing, and enhancing farmer insurance to mitigate risks from crop loss due to weather",
     jaykumar_status: "MLA - Hingna Consitency,Maharastra Legislative Assembly",
     jaykumar_name: "Shri. Sameer Meghe",
     jaykumar_desc:
-      "The Rural Development Department was established on May 1, 1960. The Rural Development Department of the Government of Maharashtra is working for the all-round development of rural areas.",
+      "While recent major projects are state-level, as MLA Sameer Meghe is expected to support implementation locally: improving village-level infrastructure, access to water and roads, and ensuring that rural development schemes reach Hingna’s communities.",
     yogesh_status: "Leader of opposition Zilla parishad, Nagpur",
     yogesh_name: "Shri. Atish Umare",
     yogesh_desc:
-      "The Rural Development Department was established on May 1, 1960. The Rural Development Department of the Government of Maharashtra is working for the all-round development of rural areas.",
+      "As Leader of Opposition in the Nagpur Zilla Parishad, Shri Atish Umare raises citizens’ concerns, monitors rural development projects, ensures transparency, and pushes for better basic amenities in villages under Zilla Parishad jurisdiction.",
     ek_status: "Sarpanch Gram Panchayat Kirmiti Bharkas",
     ek_name: "Smt. Roshani Umare",
     ek_desc:
-      "The Rural Development Department was established on May 1, 1960. The Rural Development Department of the Government of Maharashtra is working for the all-round development of rural areas.",
+      "As Sarpanch of Gram Panchayat Kirmiti Bharkas, Smt Roshani Umare leads local governance, oversees ward-level development (roads, water supply, sanitation), represents the community, and implements state rural schemes to benefit residents.",
       scheme1:"State Government Schemes",
       scheme2:"Central Government Scheme",
       scheme3:"Joint Venture (S+C)",
@@ -62,6 +62,6 @@ export const English = [
       
       punam_name:"Smt. Punam Kalsarpe",
       punam_status:"Secretary Gram Panchayat Kirmiti Bharkas",
-      punam_desc:"The Rural Development Department was established on May 1, 1960. The Rural Development Department of the Government of Maharashtra is working for the all-round development of rural areas."
+      punam_desc:"Serving as Secretary of Gram Panchayat Kirmiti Bharkas, Smt Punam Kalsarpe manages administrative tasks, organizes meetings, coordinates implementation of development work, and supports the Sarpanch in executing village-level welfare plans."
   },
 ];
