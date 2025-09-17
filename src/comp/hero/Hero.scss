@@ -3,11 +3,19 @@
   height: 500px;
   // position: relative;
   margin-top: calc(150px + 50px);
-  background: url("../../assets/bg.png");
+  // background: url("../../assets/bg.png");
 
-  .swiper, .mySwiper {
+  .swiper,
+  .mySwiper {
     width: 100%;
     height: 100%;
+  }
+
+   .hero-slide-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+
   }
 }
 
@@ -16,7 +24,7 @@
   align-items: center;
   overflow: hidden;
   white-space: nowrap;
-  background: #FFE8D2;
+  background: #ffe8d2;
   padding: 8px 0;
   font-size: 1.2rem;
   border-bottom: 1px solid #ffd700;
@@ -29,12 +37,16 @@
 }
 
 @keyframes marquee {
-  0% { transform: translateX(100%);}
-  100% { transform: translateX(-100%);}
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 @media screen and (max-width: 435px) {
-.hero-parent{
-   margin-top: calc(50px + 250px);
-}
+  .hero-parent {
+    margin-top: calc(50px + 250px);
+  }
 }

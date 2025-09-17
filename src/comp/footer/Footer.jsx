@@ -9,6 +9,7 @@ import { MdOutlinePhoneAndroid } from "react-icons/md";
 import { BiLogoFacebook } from "react-icons/bi";
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
+import { CiLocationOn } from "react-icons/ci";
 
 const Footer = () => {
   return (
@@ -29,16 +30,22 @@ const Footer = () => {
           </div>
           <div class="middle">
             <h1>India</h1>
-            <p>
-              MH SH 255, Mahajanwadi, MH SH 255, Mahajanwadi, Dangarpura,
-              Wanadongri, Maharashtra 440019
-            </p>
+         
+
+            <a target="_blank" href="https://maps.app.goo.gl/CVrGwiqinmUtXg3F8?g_st=aw" class="mail">
+              <span>
+                <CiLocationOn />
+              </span>
+              <p>
+                grampanchayat kirmiti bharkas tahsil hingna dist nagpur, 441122
+              </p>
+            </a>
 
             <a href="" class="mail">
               <span>
                 <FiMail />
               </span>
-              <p>grampanchayatkarmitibhar@gov.com</p>
+              <p>grampanchayatkirmiti5@gmail.com</p>
             </a>
             <a href="" class="mail">
               <span>
@@ -50,17 +57,28 @@ const Footer = () => {
           <div class="right">
             <h1>Social Media</h1>
             <div class="social_icons">
-              <a target="_blank" href="https://www.facebook.com/grampanchayt.kirmiti.3/">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/grampanchayt.kirmiti.3/"
+              >
                 <BiLogoFacebook />
               </a>
-              <a target="_blank" href="https://www.youtube.com/@majhivasundharaabhiyan7146">
+              <a
+                target="_blank"
+                href="https://www.youtube.com/@majhivasundharaabhiyan7146"
+              >
                 <IoLogoYoutube />
               </a>
-              <a target="_blank" href="https://www.instagram.com/majhi_vasundhara6.0/">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/majhi_vasundhara6.0/"
+              >
                 <FaInstagram />
               </a>
-              
             </div>
+          </div>
+          <div class="copyright">
+            <p>Copyright ©️ shree Krishna enterprises | <a target="_blank" href="https://wavesolutions.in/">Developed by Wave Solutions</a></p>
           </div>
         </div>
       </div>
