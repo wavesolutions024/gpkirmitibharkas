@@ -10,6 +10,7 @@ import Bottom_Header from "./comp/bottom_header/Bottom_Header";
 import Footer from "./comp/footer/Footer";
 import MajiVasundhara from "./pages/majivasundhara/MajiVasundhara";
 import ScrollToTop from "./comp/scrolltoTop/ScrollToTop";
+import Gallery from "./pages/gallery/Gallery";
 
 function App() {
   const [translate, setTranslate] = useState(English);
@@ -32,6 +33,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home translate={translate} />} />
           <Route path="/majivasundhara" element={<MajiVasundhara />} />
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
         <Footer />
       </BrowserRouter>

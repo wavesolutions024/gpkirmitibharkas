@@ -51,7 +51,7 @@ const Bottom_Header = ({ translate, setLang, lang }) => {
             <div class="bottom_header_cont cont">
               <div class="left">
                 <a href="/#schemes">{item.header_Schemes}</a>
-                <Link to="#">{item.header_Gallery}</Link>
+                <Link to="/gallery">{item.header_Gallery}</Link>
                 <a href="/#services">{item.header_Services}</a>
                 <a href="#" onClick={() => setContact(true)}>
                   {item.header_contact}

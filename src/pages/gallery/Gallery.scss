@@ -1,0 +1,39 @@
+.gallery_parent {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+  .gallery_cont {
+    padding: 50px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: calc(var(--unit));
+    flex-direction: column;
+
+    .imagess {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: calc(var(--unit) / 2);
+      flex-wrap: wrap;
+
+      .box {
+        border-radius: 5px;
+        width: 350px;
+        height: 300px;
+        display: flex;
+        gap: calc(var(--unit));
+        align-items: center;
+        justify-content: center;
+
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
