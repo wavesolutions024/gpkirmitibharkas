@@ -20,6 +20,31 @@ import img17 from "../../assets/gallery/लखपती दीदी/लखप�
 import img18 from "../../assets/gallery/लखपती दीदी/लखपती दीदी/WhatsApp Image 2026-01-06 at 16.58.25 (2).jpeg";
 import img19 from "../../assets/gallery/लखपती दीदी/लखपती दीदी/WhatsApp Image 2026-01-06 at 16.58.26 (1).jpeg";
 import img20 from "../../assets/gallery/लखपती दीदी/लखपती दीदी/WhatsApp Image 2026-01-06 at 16.58.26.jpeg";
+import img21 from "../../assets/gallery/img1.jpeg";
+import img22 from "../../assets/gallery/img2.jpeg";
+import img23 from "../../assets/gallery/img3.jpeg";
+import img24 from "../../assets/gallery/img4.jpeg";
+import img25 from "../../assets/gallery/img5.jpeg";
+import img26 from "../../assets/gallery/img6.jpeg";
+import img27 from "../../assets/gallery/img7.jpeg";
+import img28 from "../../assets/gallery/img8.jpeg";
+import img29 from "../../assets/gallery/img9.jpeg";
+import img30 from "../../assets/gallery/img10.jpeg";
+import img31 from "../../assets/gallery/img11.jpeg";
+import img32 from "../../assets/gallery/img12.jpeg";
+import img33 from "../../assets/gallery/img13.jpeg";
+import img34 from "../../assets/gallery/img14.jpeg";
+import img35 from "../../assets/gallery/img15.jpeg";
+import img36 from "../../assets/gallery/img16.jpeg";
+import img37 from "../../assets/gallery/img17.jpeg";
+import img38 from "../../assets/gallery/img18.jpeg";
+import img39 from "../../assets/gallery/img19.jpeg";
+import img40 from "../../assets/gallery/img20.jpeg";
+import img41 from "../../assets/gallery/img21.jpeg";
+import img42 from "../../assets/gallery/img22.jpeg";
+import img43 from "../../assets/gallery/img23.jpeg";
+import img44 from "../../assets/gallery/img24.jpeg";
+
 
 const Gallery = () => {
   const data = [
@@ -43,6 +68,31 @@ const Gallery = () => {
     img18,
     img19,
     img20,
+    img21,
+    img22,
+    img23,
+    img24,
+    img25,
+    img26,
+    img27,
+    img28,
+    img29,
+    img30,
+    img31,
+    img32,
+    img33,
+    img34,
+    img35,
+    img36,
+    img37,
+    img38,
+    img39,
+    img40,
+    img41,
+    img42,
+    img43,
+    img44
+
   ];
 
   return (
