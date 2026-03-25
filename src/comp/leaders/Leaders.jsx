@@ -9,6 +9,7 @@ import atish from "../../assets/atish.png";
 import punam from "../../assets/punam.png";
 import roshni from "../../assets/roshni.png";
 import atul from "../../assets/autl.jpeg";
+import Sandip_Godshalwar from "../../assets/Sandip_Godshalwar.jpeg"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -128,6 +129,18 @@ const Leaders = ({ translate }) => {
               </div>
             </div>
 
+            <div class="card" data-aos="fade-up">
+              <div class="top_section">
+                <div class="image">
+                  <img src={Sandip_Godshalwar} alt="" />
+                </div>
+              </div>
+              <div class="bottom_section">
+                <div class="label">{item.Sandip_Godshalwar_status}</div>
+                <h3 class="name">{item.Sandip_Godshalwar_name}</h3>
+                <p class="para">{item.Sandip_Godshalwar_desc}</p>
+              </div>
+            </div>
             <div class="card" data-aos="fade-up">
               <div class="top_section">
                 <div class="image">

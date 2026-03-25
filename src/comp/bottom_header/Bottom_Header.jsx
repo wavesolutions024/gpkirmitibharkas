@@ -138,7 +138,7 @@ const Bottom_Header = ({ translate, setLang, lang }) => {
               <a href="/#schemes" onClick={() => setActive(false)}>
                 {item.header_Schemes}
               </a>
-              <Link to="#" onClick={() => setActive(false)}>
+              <Link to="/gallery" onClick={() => setActive(false)}>
                 {item.header_Gallery}
               </Link>
               <a href="/#services" onClick={() => setActive(false)}>

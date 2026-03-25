@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import "./MajiVasundhara.scss";
 import ReactPlayer from "react-player";
+// videos
+import vid1 from "../../assets/videos/reel1.mp4";
+import vid2 from "../../assets/videos/reel2.mp4";
+// import vid3 from "../../assets/videos/reel3.mp4";
 
-import clean1 from "../../assets/gallery/clean/clean1.mp4";
+// import clean1 from "../../assets/gallery/clean/clean1.mp4";
 import img1 from "../../assets/gallery/clean/clean_img1.jpeg";
 import img2 from "../../assets/gallery/clean/clean_img2.jpeg";
 import img3 from "../../assets/gallery/clean/clean_img3.jpeg";
@@ -19,9 +23,9 @@ const MajiVasundhara = () => {
   const [active, setActive] = useState("Videos");
   const [data, setData] = useState("स्वच्छ सर्व्हेक्षण ग्रामीण 2025");
 
-
   return (
-    <>data1
+    <>
+      data1
       <div className="maji_vasundhara_parent parent">
         <div className="maji_vasundhara_cont cont">
           {/* Top Tabs */}
@@ -45,15 +49,32 @@ const MajiVasundhara = () => {
             <div className="bottom_section">
               <div className="data">
                 <div className="card">
-                  No Videos Found...
-                  {/* <ReactPlayer
-                      url={clean1}
-                      height="100%"
-                      width="100%"
-                      className="react-video"
-                      controls={true}
-                    /> */}
+                  <ReactPlayer
+                    src={vid1}
+                    height="100%"
+                    width="100%"
+                    className="react-video"
+                    controls
+                  />
                 </div>
+                <div className="card">
+                  <ReactPlayer
+                    src={vid2}
+                    height="100%"
+                    width="100%"
+                    className="react-video"
+                    controls
+                  />
+                </div>
+                {/* <div className="card">
+                  <ReactPlayer
+                    src={vid3}
+                    height="100%"
+                    width="100%"
+                    className="react-video"
+                    controls
+                  />
+                </div> */}
               </div>
             </div>
           )}
@@ -83,7 +104,7 @@ const MajiVasundhara = () => {
                     setData("संत ज्ञानेश्वर महाराज पालखी 750 वा सोहळा")
                   }
                 >
-                 संत ज्ञानेश्वर महाराज पालखी 750 वा सोहळा
+                  संत ज्ञानेश्वर महाराज पालखी 750 वा सोहळा
                 </div>
               </div>
 

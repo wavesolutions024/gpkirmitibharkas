@@ -54,8 +54,11 @@ export const Marathi = [
     atul_name: "श्री. अतुल गवांडे",
     atul_status: "उपसरपंच",
     atul_desc:
-      "Serving as Secretary of Gram Panchayat Kirmiti Bharkas, Smt Punam Kalsarpe manages administrative tasks, organizes meetings, coordinates implementation of development work, and supports the Sarpanch in executing village-level welfare plans.",
-
+      "श्री. अतुल गवांडे हे उपसरपंच म्हणून कार्यरत असून, ग्रामपंचायतीच्या प्रशासनात सक्रिय भूमिका बजावतात. ते सरपंचांसोबत समन्वय साधून विविध शासकीय योजना राबवणे, स्थानिक समस्यांचे निराकरण करणे आणि गावाच्या विकासासाठी प्रयत्नशील असतात.",
+    Sandip_Godshalwar_name: "श्री. अतुल गवांडे",
+    Sandip_Godshalwar_status: "ब्लॉक डेव्हलपमेंट ऑफिसर",
+    Sandip_Godshalwar_desc:
+      "संदीप गोडशलवार हे ब्लॉक डेव्हलपमेंट ऑफिसर (BDO) म्हणून कार्यरत असून, ग्रामीण विकास योजनांची प्रभावी अंमलबजावणी करणे, स्थानिक प्रशासन सुदृढ करणे आणि गावांच्या सर्वांगीण विकासासाठी कार्य करतात. त्यांच्या कामातून समुदायाच्या कल्याणावर विशेष भर दिला जातो.",
     scheme1: "राज्य शासन योजना",
     scheme2: "केंद्रीय शासन योजना",
     scheme3: "संयुक्त उपक्रम (राज्य + केंद्र)",

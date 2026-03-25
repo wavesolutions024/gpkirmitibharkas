@@ -45,10 +45,14 @@ export const English = [
     punam_desc:
       "Serving as Secretary of Gram Panchayat Kirmiti Bharkas, Smt Punam Kalsarpe manages administrative tasks, organizes meetings, coordinates implementation of development work, and supports the Sarpanch in executing village-level welfare plans.",
 
+    Sandip_Godshalwar_name: "Sandip Godshalwar",
+    Sandip_Godshalwar_status: "Block Development Officer",
+    Sandip_Godshalwar_desc:
+      "Sandip Godshalwar is a dedicated Block Development Officer responsible for implementing government schemes, promoting rural development, and ensuring effective administration at the block level. He focuses on community welfare, infrastructure growth, and improving the overall quality of life in rural areas.",
     atul_name: "Shri. Atul Gawande",
     atul_status: "Deputy Sarpanch",
     atul_desc:
-      "Serving as Secretary of Gram Panchayat Kirmiti Bharkas, Smt Punam Kalsarpe manages administrative tasks, organizes meetings, coordinates implementation of development work, and supports the Sarpanch in executing village-level welfare plans.",
+      "Shri Atul Gawande serves as the Deputy Sarpanch, supporting village administration and development initiatives. He works closely with the Sarpanch to address local issues, implement government schemes, and promote community welfare, ensuring progress and effective governance at the grassroots level.",
 
     scheme1: "State Government Schemes",
     scheme2: "Central Government Scheme",
@@ -85,10 +89,7 @@ export const English = [
     schem3_PM_SVANidhi: "Pandit Dindayal Upadhyay Panchayat Empowerment Award",
     schem3_PM_SVANidhi_para:
       "Pandit Dindayal Upadhyay Panchayat Empowerment Award Center Awarded / Center-State Awarded / State Awarded Center sponsored Brief information about the…",
-    // schem3_pmmy :"Pradhan Mantri Mudra Yojana",
-    // schem3_pmmy_para : "Pradhan Mantri MUDRA Yojana (PMMY), Ministry of Finance, Pradhan Mantri MUDRA Yojana (PMMY) is a scheme launched by the Hon'ble Prime Minister",
-    // schem3_Pdduay :"Deen Dayal Upadhyaya Antyodaya Yojana",
-    // schem3_pdduay_para : "Centrally Sponsored Scheme ; 2, Deen Dayal Upadhyaya Antyodaya Yojana, Ministry of Housing and urban affairs ; 3, PM Svanidhi Yojna",
+
     mahasamvad: "Mahasamvad",
     mahasamvad_para:
       "My Vasundhara Abhiyan 6.0 to be implemented in local self-government bodies – Environment and Climate Change Minister Pankaja Munde",
