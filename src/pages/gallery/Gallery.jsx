@@ -44,7 +44,29 @@ import img41 from "../../assets/gallery/img21.jpeg";
 import img42 from "../../assets/gallery/img22.jpeg";
 import img43 from "../../assets/gallery/img23.jpeg";
 import img44 from "../../assets/gallery/img24.jpeg";
-
+import img45 from "../../assets/gallery/img25.jpeg";
+import img46 from "../../assets/gallery/img26.jpeg";
+import img47 from "../../assets/gallery/img27.jpeg";
+import img48 from "../../assets/gallery/img28.jpeg";
+import img49 from "../../assets/gallery/img29.jpeg";
+import img50 from "../../assets/gallery/img30.jpeg";
+import img51 from "../../assets/gallery/img31.jpeg";
+import img52 from "../../assets/gallery/img32.jpeg";
+import img53 from "../../assets/gallery/img33.jpeg";
+import img54 from "../../assets/gallery/img34.jpeg";
+import img55 from "../../assets/gallery/img35.jpeg";
+import img56 from "../../assets/gallery/img36.jpeg";
+import img57 from "../../assets/gallery/img37.jpeg";
+import img58 from "../../assets/gallery/img38.jpeg";
+import img59 from "../../assets/gallery/img39.jpeg";
+import img60 from "../../assets/gallery/img40.jpeg";
+import img61 from "../../assets/gallery/img41.jpeg";
+import img62 from "../../assets/gallery/img42.jpeg";
+import img63 from "../../assets/gallery/img43.jpeg";
+import img64 from "../../assets/gallery/img44.jpeg";
+import img65 from "../../assets/gallery/img45.jpeg";
+import img66 from "../../assets/gallery/img46.jpeg";
+import img67 from "../../assets/gallery/img47.jpeg";
 
 const Gallery = () => {
   const data = [
@@ -91,8 +113,30 @@ const Gallery = () => {
     img41,
     img42,
     img43,
-    img44
-
+    img44,
+    img45,
+    img46,
+    img47,
+    img48,
+    img49,
+    img50,
+    img51,
+    img52,
+    img53,
+    img54,
+    img55,
+    img56,
+    img57,
+    img58,
+    img59,
+    img60,
+    img61,
+    img62,
+    img63,
+    img64,
+    img65,
+    img66,
+    img67,
   ];
 
   return (
