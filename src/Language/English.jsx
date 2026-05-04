@@ -7,6 +7,7 @@ export const English = [
     header_contact: "Contact Us",
     header_majivasundhara: "Maji Vasundhara Abhiyan",
     header_MukhyamantriSamudhi: "Mukhyamantri Samudhi Panchayat Raj Abhiyan",
+    header_pdf:"Download PDF",
     marque_title:
       "Shravan Bal Seva Rajya Nivruttivetan Yojana | Sanjay Gandhi Niradhar Anudan Yojana",
 

@@ -7,7 +7,7 @@ export const Marathi = [
     header_contact: "संपर्क करा",
     header_majivasundhara: "माझी वसुंधरा अभियान",
     header_MukhyamantriSamudhi: "मुख्यमंत्री समृद्ध पंचायत राज अभियान",
-
+    header_pdf: "पीडीएफ डाउनलोड",
     marque_title:
       "श्रवणबाळ सेवा राज्य निवृत्तीवेतन योजना | संजय गांधी निराधार अनुदान योजना",
 

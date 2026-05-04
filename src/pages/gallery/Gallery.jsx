@@ -67,6 +67,18 @@ import img64 from "../../assets/gallery/img44.jpeg";
 import img65 from "../../assets/gallery/img45.jpeg";
 import img66 from "../../assets/gallery/img46.jpeg";
 import img67 from "../../assets/gallery/img47.jpeg";
+import img68 from "../../assets/gallery/img48.jpeg";
+import img69 from "../../assets/gallery/img49.jpeg";
+import img70 from "../../assets/gallery/img50.jpeg";
+import img71 from "../../assets/gallery/img51.jpeg";
+import img72 from "../../assets/gallery/img52.jpeg";
+import img73 from "../../assets/gallery/img53.jpeg";
+import img74 from "../../assets/gallery/img54.jpeg";
+import img75 from "../../assets/gallery/img55.jpeg";
+import img76 from "../../assets/gallery/img56.jpeg";
+import img77 from "../../assets/gallery/img57.jpeg";
+import img78 from "../../assets/gallery/img58.jpeg";
+
 
 const Gallery = () => {
   const data = [
@@ -137,6 +149,17 @@ const Gallery = () => {
     img65,
     img66,
     img67,
+    img68,
+    img69,
+    img70,
+    img71,
+    img72,
+    img73,
+    img74,
+    img75,
+    img76,
+    img77,
+    img78,
   ];
 
   return (

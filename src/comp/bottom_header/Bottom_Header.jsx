@@ -6,6 +6,7 @@ import { SlSocialFacebook } from "react-icons/sl";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa";
 import Contact from "../contact/Contact";
+import header_pdf from "../../../public/doc.pdf";
 
 
 const Bottom_Header = ({ translate, setLang, lang }) => {
@@ -56,8 +57,12 @@ const Bottom_Header = ({ translate, setLang, lang }) => {
                 <a href="#" onClick={() => setContact(true)}>
                   {item.header_contact}
                 </a>
+               
                 <Link to="/majivasundhara">{item.header_majivasundhara}</Link>
                 <Link href="">{item.header_MukhyamantriSamudhi}</Link>
+                 <a href={header_pdf} target="_blank" rel="noopener noreferrer">
+                  {item.header_pdf}
+                </a>
               </div>
 
               <div class="right">
